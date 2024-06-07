@@ -1,0 +1,59 @@
+/* */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Fuentes*/
+    margin: 0; /*Eliminamos el margen predeterminado del cuerpo*/
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddbdb; /*Color de fondo del Body*/
+}
+
+/*Contenedor de los selectores de color*/
+#color-pickers {
+    margin-bottom: 20px; /*Margen inferior*/
+}
+
+/*Etiquetas dentro del contenedor de los selectores de color*/
+#color-pickers label {
+    margin-right: 10px; /*margen derecho*/
+}
+
+/*Inputs dentro del contenedor de los selectores de color*/
+#color-pickers input {
+    margin-right: 10px; /*Margen derecho*/
+    margin-bottom: 10px;/*Margen inferior*/
+}
+
+/*Boton dentro del contenedor de los selectores de color*/
+#color-pickers button {
+    padding: 10px 20px; /*Relleno de 10 px Vertical y 20px Horizontal*/
+    margin: 5px;        /*margen alrededor del Boton*/
+    border: none;       /*Borde del boton*/
+    cursor: pointer;    /*Cambia el cursor a un puntero cuando se pasa el mouse sobre el boton*/
+    font-size: 16px;    /*Tamaño de la fuente del texto del boton*/
+}
+
+/*Estilos para el contenedor de la vista previa*/
+#web-preview {
+    width: 80%;     /*Ancho del contenedor a 80% del cont. grande*/
+    padding: 20px;  /*Añade un relleno de 20px dentro del contenedor*/
+    background-color: #fff; /*Color de fondo del contenedor a blanco*/
+    border: 1px solid #ddd; /*Borde de 1px solido y color gris claro*/
+    border-radius: 5px; /*Radio de borde de 5 px para esquinas redondeadas*/
+    text-align: center; /*Texto dentro del contenedor Centrado*/
+}
+
+/*Encabezado dentro del contenedor de la vista previa */
+#web-preview h1 {
+    margin-top: 0;  /*Sin margen superior en el encabezado*/
+}
+
+/*Botones dentro del contenedor de la vista previa de la web*/
+#web-preview button {
+    padding: 10px 20px; /*Relleno de 10px Vertical y 20px Horizontal*/
+    border: none;       /*Sin borde*/
+    cursor: pointer;    /*Cursor a Puntero cuando se pasa el Mouse sobre el boton*/
+    font-size: 16px;    /*Tamaño de la fuente del texto del boton*/
+}

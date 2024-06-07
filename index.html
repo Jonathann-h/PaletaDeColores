@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Paletas de Colores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Selectores de Color-->
+    <div id="color-pickers">
+        <label for="bgColor">Color de Fondo:</label>
+        <!--Input para seleccionar el color de fondo, con  un valor predeterminado (blanco)-->
+        <input type="color" id="bgColor" name="bgColor" value="#ffffff">
+        
+        <label for="textColor">Color del Texto:</label>
+        <!--Input para seleccionar el color del texto, con  un valor predeterminado (negro)-->
+        <input type="color" id="textColor" name="textColor" value="#000000">
+        
+        <label for="buttonBgColor">Color de Fondo del Botón:</label>
+        <!--Input para seleccionar el color de fondo del boton, con  un valor predeterminado (negro)-->
+        <input type="color" id="buttonBgColor" name="buttonBgColor" value="#000000">
+        
+        <label for="buttonTextColor">Color del Texto del Botón:</label>
+        <!--Input para seleccionar el color del texto del boton, con  un valor predeterminado (blanco)-->
+        <input type="color" id="buttonTextColor" name="buttonTextColor" value="#ffffff">
+        
+        <!-- Botón para aplicar los colores seleccionados, llamando a la función Js 'applyCustomColors' -->
+        <button onclick="aplicarColoresPersonalizados()">Aplicar Colores</button>
+        
+        <!--Boton para reestablecer los valores cargados-->
+        <button onclick="resetColors()">Restablecer Colores</button>
+        
+    </div>
+
+    <!--Contenedor para la vista previa con los colores aplicados-->
+    <div id="web-preview">
+        <h1>Jonathan Hoyos</h1>
+        <p>Este es un párrafo de ejemplo para ver cómo se ve el texto con la paleta de colores seleccionada.</p>
+        <button>Botón de ejemplo</button>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
